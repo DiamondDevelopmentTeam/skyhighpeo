@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820" fill="none">
+  <style>
+    .frame-line { opacity: 0; animation: fade-in .7s .1s ease-out forwards; }
+    .ring { opacity: 0; transform-box: fill-box; transform-origin: center; animation: ring-in .9s .18s cubic-bezier(.22,1,.36,1) forwards; }
+    .leaf-lobe { opacity: 0; transform-box: fill-box; transform-origin: 50% 100%; animation: leaf-in .72s cubic-bezier(.22,1,.36,1) forwards; }
+    .leaf-lobe:nth-child(1) { animation-delay: .22s; }
+    .leaf-lobe:nth-child(2), .leaf-lobe:nth-child(3) { animation-delay: .28s; }
+    .leaf-lobe:nth-child(4), .leaf-lobe:nth-child(5) { animation-delay: .34s; }
+    .leaf-lobe:nth-child(6), .leaf-lobe:nth-child(7) { animation-delay: .4s; }
+    .vein { stroke-dasharray: 420; stroke-dashoffset: 420; animation: draw-line .95s .48s cubic-bezier(.22,1,.36,1) forwards; }
+    .stem { stroke-dasharray: 110; stroke-dashoffset: 110; animation: draw-line .55s .72s ease-out forwards; }
+    .marker { opacity: 0; animation: marker-in .5s .88s ease-out forwards; }
+    @keyframes fade-in { to { opacity: 1; } }
+    @keyframes ring-in { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: scale(1); } }
+    @keyframes leaf-in { from { opacity: 0; transform: translateY(10px) scaleY(.94); } to { opacity: 1; transform: translateY(0) scaleY(1); } }
+    @keyframes draw-line { to { stroke-dashoffset: 0; } }
+    @keyframes marker-in { to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .frame-line, .ring, .leaf-lobe, .vein, .stem, .marker { animation: none; opacity: 1; stroke-dashoffset: 0; transform: none; }
+    }
+  </style>
+
+  <rect x="44" y="44" width="732" height="732" rx="10" fill="#0B1811" stroke="#264634"/>
+  <g class="frame-line">
+    <path d="M112 150H708" stroke="#1B3325"/>
+    <path d="M112 670H708" stroke="#1B3325"/>
+  </g>
+  <circle class="ring" cx="410" cy="402" r="238" stroke="#284C37" stroke-width="1"/>
+  <circle class="ring" cx="410" cy="402" r="166" stroke="#1D3C2A" stroke-width="1"/>
+
+  <g fill="none" stroke="#2A6940" stroke-width="2" stroke-linejoin="round" opacity=".45" transform="translate(5 7)">
+    <path d="M410 550C382 459 377 301 412 174C449 302 441 461 410 550Z"/>
+    <path d="M392 535C322 466 266 355 264 238C343 291 388 403 392 535Z"/>
+    <path d="M428 535C498 466 554 355 556 238C477 291 432 403 428 535Z"/>
+    <path d="M380 548C292 522 198 456 150 358C250 370 339 443 380 548Z"/>
+    <path d="M440 548C528 522 622 456 670 358C570 370 481 443 440 548Z"/>
+    <path d="M386 566C313 578 239 558 190 502C272 489 344 518 386 566Z"/>
+    <path d="M434 566C507 578 581 558 630 502C548 489 476 518 434 566Z"/>
+  </g>
+
+  <g fill="#102F1D" stroke="#72D68E" stroke-width="2.6" stroke-linejoin="round">
+    <path class="leaf-lobe" d="M410 550C382 459 377 301 412 174C449 302 441 461 410 550Z"/>
+    <path class="leaf-lobe" d="M392 535C322 466 266 355 264 238C343 291 388 403 392 535Z"/>
+    <path class="leaf-lobe" d="M428 535C498 466 554 355 556 238C477 291 432 403 428 535Z"/>
+    <path class="leaf-lobe" d="M380 548C292 522 198 456 150 358C250 370 339 443 380 548Z"/>
+    <path class="leaf-lobe" d="M440 548C528 522 622 456 670 358C570 370 481 443 440 548Z"/>
+    <path class="leaf-lobe" d="M386 566C313 578 239 558 190 502C272 489 344 518 386 566Z"/>
+    <path class="leaf-lobe" d="M434 566C507 578 581 558 630 502C548 489 476 518 434 566Z"/>
+  </g>
+
+  <g class="veins" stroke="#76C88D" stroke-width="1.35" stroke-linecap="round" opacity=".72">
+    <path class="vein" d="M410 550L412 190"/>
+    <path class="vein" d="M397 536L276 260"/>
+    <path class="vein" d="M423 536L544 260"/>
+    <path class="vein" d="M383 547L170 375"/>
+    <path class="vein" d="M437 547L650 375"/>
+    <path class="vein" d="M388 565L214 510"/>
+    <path class="vein" d="M432 565L606 510"/>
+  </g>
+
+  <path class="stem" d="M410 548V649" stroke="#A5DDB5" stroke-width="3.2" stroke-linecap="round"/>
+  <g class="frame-line">
+    <path d="M146 708H310" stroke="#31563F"/>
+    <path d="M510 708H674" stroke="#31563F"/>
+  </g>
+  <circle class="marker" cx="410" cy="708" r="4" fill="#72D68E"/>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "name": "SkyHigh PEO",
+  "short_name": "SkyHigh PEO",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b1110",
+  "theme_color": "#0b1110",
+  "icons": []
+}

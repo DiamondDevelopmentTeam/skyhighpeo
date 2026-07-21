@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#14241d"/><stop offset="1" stop-color="#08100d"/></linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#74df92" stroke-opacity=".08"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="700" rx="42" fill="url(#bg)"/>
+  <rect width="900" height="700" rx="42" fill="url(#grid)"/>
+  <path d="M354 108c46 6 91 22 126 49 41 31 73 74 92 122 11 27 18 56 23 85 6 34 19 63 39 91 23 33 50 63 70 98 13 23 19 49 12 75-7 25-26 46-51 54-31 9-63-4-84-28-18-21-27-49-41-73-27-45-72-78-120-99-45-20-95-31-139-53-42-21-78-53-98-95-17-35-23-76-12-114 13-45 48-83 91-101 29-12 61-15 92-11Z" fill="#173e29" stroke="#77e696" stroke-width="4" filter="url(#glow)"/>
+  <path d="M318 194c64 27 113 70 148 131 30 53 47 112 72 167" stroke="#9cf8b4" stroke-opacity=".35" stroke-width="3" stroke-dasharray="8 13"/>
+  <g fill="#9cf8b4" filter="url(#glow)">
+    <circle cx="332" cy="210" r="8"/><circle cx="455" cy="331" r="8"/><circle cx="550" cy="471" r="8"/><circle cx="637" cy="575" r="8"/>
+  </g>
+  <g fill="#eaffef" font-family="Arial, sans-serif" font-size="20">
+    <text x="278" y="181">Ocala</text><text x="468" y="315">Orlando</text><text x="560" y="455">Tampa</text><text x="651" y="565">Miami</text>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" fill="none">
+  <defs><linearGradient id="panel" x1="80" y1="55" x2="820" y2="600"><stop stop-color="#173128"/><stop offset="1" stop-color="#0a1410"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000" flood-opacity=".35"/></filter></defs>
+  <rect x="50" y="40" width="800" height="570" rx="42" fill="url(#panel)" filter="url(#s)"/>
+  <circle cx="102" cy="92" r="8" fill="#ff756c"/><circle cx="130" cy="92" r="8" fill="#ffd86a"/><circle cx="158" cy="92" r="8" fill="#77e798"/>
+  <rect x="84" y="138" width="208" height="414" rx="26" fill="#0c1a15" stroke="#72e394" stroke-opacity=".16"/>
+  <rect x="321" y="138" width="445" height="118" rx="26" fill="#10231b" stroke="#72e394" stroke-opacity=".18"/>
+  <rect x="321" y="280" width="445" height="272" rx="26" fill="#10231b" stroke="#72e394" stroke-opacity=".18"/>
+  <g fill="#76e797"><circle cx="120" cy="180" r="10"/><rect x="144" y="170" width="92" height="18" rx="9"/></g>
+  <g fill="#ddfbe5" opacity=".55"><rect x="112" y="232" width="122" height="14" rx="7"/><rect x="112" y="280" width="138" height="14" rx="7"/><rect x="112" y="328" width="105" height="14" rx="7"/><rect x="112" y="376" width="128" height="14" rx="7"/></g>
+  <text x="356" y="182" fill="#effff3" font-family="Arial, sans-serif" font-size="24" font-weight="700">Compliance health</text>
+  <text x="356" y="218" fill="#a9c8b3" font-family="Arial, sans-serif" font-size="18">Documents, policies and employee records</text>
+  <circle cx="694" cy="197" r="31" fill="#173a27" stroke="#74e696" stroke-width="6"/><path d="m681 197 9 9 18-20" stroke="#a8f6b9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Arial, sans-serif">
+    <text x="355" y="330" fill="#a9c8b3" font-size="17">Policy acknowledgments</text><text x="700" y="330" fill="#effff3" font-size="17">Complete</text>
+    <rect x="355" y="348" width="360" height="12" rx="6" fill="#203d30"/><rect x="355" y="348" width="336" height="12" rx="6" fill="#72e394"/>
+    <text x="355" y="408" fill="#a9c8b3" font-size="17">Payroll records</text><text x="700" y="408" fill="#effff3" font-size="17">Ready</text>
+    <rect x="355" y="426" width="360" height="12" rx="6" fill="#203d30"/><rect x="355" y="426" width="310" height="12" rx="6" fill="#72e394"/>
+    <text x="355" y="486" fill="#a9c8b3" font-size="17">Training documentation</text><text x="700" y="486" fill="#effff3" font-size="17">Review</text>
+    <rect x="355" y="504" width="360" height="12" rx="6" fill="#203d30"/><rect x="355" y="504" width="232" height="12" rx="6" fill="#d2c65a"/>
+  </g>
+</svg>
